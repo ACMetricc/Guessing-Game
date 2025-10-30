@@ -1,5 +1,3 @@
-# Guessing-Game
-A guessing game from python
-It gives you the chills of having read your mind, completely logical yet fascinating HAHA!
+# You-guess-the-minds-of-the-computer-here
+A guessing game from python, where you guess what the computer thinks, enough to make the computers guess what you know, now the tables have turned, haven't they ?
 
-The game is for numbers, ie you think of a number.
