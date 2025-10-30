@@ -2,8 +2,8 @@ import random
 
 print("Hi! Welcome to the Number Guessing Game.\nYou have 7 chances to guess the number. Let's start!")
 
-low = int(input("Enter the Lower Bound: "))
-high = int(input("Enter the Upper Bound: "))
+low = int(input("Enter the Lower Bound broski: "))
+high = int(input("Enter the Upper Bound broski: "))
 
 print(f"\nYou have 7 chances to guess the number between {low} and {high}. Let's start!")
 
@@ -13,10 +13,10 @@ gc = 0                        # Guess counter
 
 while gc < ch:
     gc += 1
-    guess = int(input('Enter your guess: '))
+    guess = int(input('Enter your guess broski: '))
 
     if guess == num:
-        print(f'Correct! The number is {num}. You guessed it in {gc} attempts.')
+        print(f'Correct! The number is {num}. You guessed it in {gc} attempts broski.')
         break
 
     elif gc >= ch and guess != num:
@@ -26,4 +26,5 @@ while gc < ch:
         print('Too high! Try a lower number.')
 
     elif guess < num:
+
         print('Too low! Try a higher number.')
