@@ -27,6 +27,8 @@ while gc < ch:
     elif guess > num and guess < num+100:
         print('Close, but still high.')
 
-    elif guess < num:
+    elif guess < num-100:
+        print('Tooooo low! Try a higher number.')
+    elif guess < num and guess > num-100:
+        print('Close, but still low.')
 
-        print('Too low! Try a higher number.')
