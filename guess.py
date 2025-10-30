@@ -22,8 +22,10 @@ while gc < ch:
     elif gc >= ch and guess != num:
         print(f'Sorry! The number was {num}. Better luck next time.')
 
-    elif guess > num:
-        print('Too high! Try a lower number.')
+    elif guess > num+100:
+        print('Tooooooo high! Try a lower number.')
+    elif guess > num and guess < num+100:
+        print('Close, but still high.')
 
     elif guess < num:
 
